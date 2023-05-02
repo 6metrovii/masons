@@ -5,18 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="files/swiper.min.css?_v=20230430174033">
-    <link rel="stylesheet" href="css/style.min.css?_v=20230430174033">
-    <title></title>
+    <link rel="stylesheet" href="files/swiper.min.css?_v=20230502153909">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230502153909">
+    <title>Homepage</title>
 </head>
 
 <body>
-    
+    <header class="header">
+    <div class="header-container">
+        <div class="logo-block">
+            <div data-goto=".section1" class="logo"><img src="img/logo.svg" alt="logo"></div>
+            <div class="lang-block">
+                <button class="uk">Ук</button>
+                <button class="en">En</button>
+            </div>
+            <a href="tell:+380666225191" class="tell">+380666225191</a>
+        </div>
+        <div class="header-text">High quality printing. Clothing and accessories branding.</div>
+        <div class="header-action">
+            <ul class="header-social">
+                <li class="social-item icon-insta"></li>
+                <li class="social-item icon-telegram"></li>
+                <li class="social-item icon-viber"></li>
+            </ul>
+            <button class="calc _calc-btn">Calculate price</button>
+        </div>
+    </div>
+</header>
     <main>
         <section class="section1">
             <div class="section1-container">
                 <h1 class="section1-title">Masons <br> <span>branding</span> <br> workshop</h1>
-                <button class="print _print-btn _btn">Lets print!</button>
+                <a href="cart.html" class="print _print-btn _btn ">Lets print!</a>
                 <div class="images">
                     <div class="image1"><picture><source srcset="img/homepage/section1/photo1.webp" type="image/webp"><img src="img/homepage/section1/photo1.jpg" alt="image"></picture></div>
                     <div class="image2"><picture><source srcset="img/homepage/section1/photo2.webp" type="image/webp"><img src="img/homepage/section1/photo2.jpg" alt="image"></picture></div>
@@ -39,72 +59,108 @@
                     </div>
                 </div>
                 <div class="print-body">
-                    <table data-category="men">
-                        <tr>
-                            <td>T-shirts</td>
-                            <td>fleece jackets</td>
-                        </tr>
-                        <tr>
-                            <td>Poloshirts</td>
-                            <td>fleece gilets</td>
-                        </tr>
-                        <tr>
-                            <td>Sweatshirt</td>
-                            <td>gilets</td>
-                        </tr>
-                        <tr>
-                            <td>Hoodies</td>
-                            <td>sleewless tshirt</td>
-                        </tr>
-                        <tr>
-                            <td>Hoodies with zipper</td>
-                            <td>Sport t-shirts</td>
-                        </tr>
-                    </table>
-                   <!--  <table data-category="women">
-                        <tr>
-                            <td>T-shirts</td>
-                            <td>fleece jackets</td>
-                        </tr>
-                        <tr>
-                            <td>Poloshirts</td>
-                            <td>fleece gilets</td>
-                        </tr>
-                        <tr>
-                            <td>Sweatshirt</td>
-                            <td>gilets</td>
-                        </tr>
-                        <tr>
-                            <td>Hoodies</td>
-                            <td>sleewless tshirt</td>
-                        </tr>
-                        <tr>
-                            <td>Hoodies with zipper</td>
-                            <td>Sport t-shirts</td>
-                        </tr>
-                    </table>
-                    <table data-category="kids">
-                        <tr>
-                            <td>T-shirts</td>
-                            <td>fleece jackets</td>
-                        </tr>
-                        <tr>
-                            <td>Poloshirts</td>
-                            <td>fleece gilets</td>
-                        </tr>
-                        <tr>
-                            <td>Sweatshirt</td>
-                            <td>gilets</td>
-                        </tr>
-                        <tr>
-                            <td>Hoodies</td>
-                            <td>sleewless tshirt</td>
-                        </tr>
-                        <tr>
-                            <td>Hoodies with zipper</td>
-                            <td>Sport t-shirts</td>
-                        </tr>
-                    </table> -->
+                    <div class="print-categories" data-category="men">
+                        <div class="categories-column">
+                            <div class="category-item">
+                                <a href="catalog.html">T-shirts</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">Poloshirts</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">Sweatshirt</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">Hoodies</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">Hoodies with zipper</a>
+                            </div>
+                        </div>
+                        <div class="categories-column">
+                            <div class="category-item">
+                                <a href="catalog.html">fleece jackets</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">fleece gilets</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">gilets</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">sleewless tshirt</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">Sport t-shirts</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="print-categories" data-category="women">
+                        <div class="categories-column">
+                            <div class="category-item">
+                                <a href="catalog.html">Hoodies</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">Sweatshirt</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">Poloshirts</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">T-shirts</a>
+                            </div>
+                        </div>
+                        <div class="categories-column">
+                            <div class="category-item">
+                                <a href="catalog.html">fleece jackets</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">fleece gilets</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">gilets</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">sleewless tshirt</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="print-categories" data-category="kids">
+                        <div class="categories-column">
+                            <div class="category-item">
+                                <a href="catalog.html">T-shirts</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">Poloshirts</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">Sweatshirt</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">Hoodies</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">Hoodies with zipper</a>
+                            </div>
+                        </div>
+                        <div class="categories-column">
+                            <div class="category-item">
+                                <a href="catalog.html">fleece jackets</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">fleece gilets</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">gilets</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">sleewless tshirt</a>
+                            </div>
+                            <div class="category-item">
+                                <a href="catalog.html">Sport t-shirts</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <a href="catalog.html" class="catalog  _btn">Open full catalog</a>
             </div>
@@ -199,6 +255,27 @@
                                 <div class="img-wrapper">
                                     <div class="image"><picture><source srcset="img/homepage/works/img7.webp" type="image/webp"><img src="img/homepage/works/img7.jpg" alt="image"></picture></div>
                                     <div class="image"><picture><source srcset="img/homepage/works/img8.webp" type="image/webp"><img src="img/homepage/works/img8.jpg" alt="image"></picture></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide1">
+                            <div class="column1">
+                                <div class="image"><picture><source srcset="img/catalog/img1.webp" type="image/webp"><img src="img/catalog/img1.jpg" alt="image"></picture></div>
+                                <div class="image"><picture><source srcset="img/catalog/img2.webp" type="image/webp"><img src="img/catalog/img2.jpg" alt="image"></picture></div>
+                            </div>
+                            <div class="column2">
+                                <div class="image image-big"><picture><source srcset="img/catalog/img3.webp" type="image/webp"><img src="img/catalog/img3.jpg" alt="image"></picture></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide slide2">
+                            <div class="column1">
+                                <div class="image"><picture><source srcset="img/catalog/img4.webp" type="image/webp"><img src="img/catalog/img4.jpg" alt="image"></picture></div>
+                            </div>
+                            <div class="column2">
+                                <div class="image image-big"><picture><source srcset="img/catalog/img5.webp" type="image/webp"><img src="img/catalog/img5.jpg" alt="image"></picture></div>
+                                <div class="img-wrapper">
+                                    <div class="image"><picture><source srcset="img/catalog/img6.webp" type="image/webp"><img src="img/catalog/img6.jpg" alt="image"></picture></div>
+                                    <div class="image"><picture><source srcset="img/catalog/img7.webp" type="image/webp"><img src="img/catalog/img7.jpg" alt="image"></picture></div>
                                 </div>
                             </div>
                         </div>
@@ -416,11 +493,67 @@
                         <div class="icon-cross"><img src="files/cross.svg" alt="icon"></div>
                         <div class="icon-polo"><img src="files/polo.svg" alt="icon"></div>
                     </div>
-                    <button class="calculate _btn">Calculate price</button>
+                    <button class="calculate _btn _calc-btn">Calculate price</button>
                 </div>
             </div>
         </section>
     </main>
+    <div class="calculate-window">
+    <div class="calculate-form">
+        <form action="#" class="cart-form calc-form">
+            <div class="form-head">
+                <div class="cart-count">
+                    <div class="input-wrapper count1"><input class="input-count" value="1-10" type="radio" name="count" checked></div>
+                    <div class="input-wrapper count2"><input class="input-count" value="11-30" type="radio" name="count"></div>
+                    <div class="input-wrapper count3"><input class="input-count" value="31+" type="radio" name="count"></div>
+                </div>
+                <div class="cart-price">650 ₴</div>
+            </div>
+
+            <div class="form-size">
+                <div class="size-title">SIZES AVAILABLE</div>
+                <div class="size-checkbox">
+                    <div class="input-wrapper s">
+                        <input class="size-input" value="s" type="radio" name="size">
+                    </div>
+                    <div class="input-wrapper m">
+                        <input checked class="size-input" value="m" type="radio" name="size">
+                    </div>
+                    <div class="input-wrapper l">
+                        <input class="size-input" value="l" type="radio" name="size">
+                    </div>
+                    <div class="input-wrapper xl">
+                        <input class="size-input" value="xl" type="radio" name="size">
+                    </div>
+                    <div class="input-wrapper xxl">
+                        <input class="size-input" value="xxl" type="radio" name="size">
+                    </div>
+                    <div class="input-wrapper xxxl">
+                        <input class="size-input" value="3xl" type="radio" name="size">
+                    </div>
+                </div>
+            </div>
+            <div class="form-color">
+                <div class="color-title">COLORS AVAILABLE</div>
+                <div class="color-checkbox">
+                    <div class="input-wrapper color1"><input class="input-color" value="1" type="radio" name="color"></div>
+                    <div class="input-wrapper color2"><input class="input-color" value="2" type="radio" name="color"></div>
+                    <div class="input-wrapper color3"><input class="input-color" value="3" type="radio" name="color"></div>
+                    <div class="input-wrapper color4"><input class="input-color" value="4" type="radio" name="color"></div>
+                    <div class="input-wrapper color5"><input class="input-color" value="5" type="radio" name="color"></div>
+                    <div class="input-wrapper color6"><input class="input-color" value="6" type="radio" name="color"></div>
+                    <div class="input-wrapper color7"><input class="input-color" value="7" type="radio" name="color"></div>
+                    <div class="input-wrapper color8"><input class="input-color" value="8" type="radio" name="color"></div>
+                </div>
+            </div>
+            <button class="print-button">Lets print!</button>
+            <div class="form-bottom">
+                <div class="bottom-item scale icon-scale"><span>Розмірна сітка</span></div>
+                <div class="bottom-item delivery icon-box"><span>Доставка та повернення</span></div>
+            </div>
+        </form>
+    </div>
+</div>
     <footer class="footer">
     <div class="footer-container">
         <div class="footer-first-block">
@@ -436,16 +569,16 @@
         <div class="footer-second-block">
             <div class="footer-links">
                 <ul class="links-list">
-                    <li><a href="index.html" class="footer-link">HOMEPAGE</a></li>
-                    <li><a href="#" class="footer-link">PRINTING ON</a></li>
+                    <li><a data-goto=".section1" href="index.html" class="footer-link">HOMEPAGE</a></li>
+                    <li><a data-goto=".print" href="#" class="footer-link">PRINTING ON</a></li>
                 </ul>
                 <ul class="links-list">
-                    <li><a href="#" class="footer-link">TYPES OF PRINTING</a></li>
-                    <li><a href="#" class="footer-link">OUR WORKS</a></li>
+                    <li><a data-goto=".types" href="#" class="footer-link">TYPES OF PRINTING</a></li>
+                    <li><a data-goto=".works" href="#" class="footer-link">OUR WORKS</a></li>
                 </ul>
                 <ul class="links-list">
-                    <li><a href="#" class="footer-link">Reviews</a></li>
-                    <li><a href="#" class="footer-link">Also We can do</a></li>
+                    <li><a data-goto=".review" href="#" class="footer-link">Reviews</a></li>
+                    <li><a data-goto=".also" href="#" class="footer-link">Also We can do</a></li>
                 </ul>
                 <ul class="links-list">
                     <li><a href="#" class="footer-link">Order a print</a></li>
@@ -463,6 +596,6 @@
         </div>
     </div>
 </footer>
-    <script src="js/app.min.js?_v=20230430174033"></script>
+    <script src="js/app.min.js?_v=20230502153909"></script>
 </body>
 </html>
