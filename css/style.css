@@ -323,6 +323,7 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   border: 2px solid #FFC700;
+  margin-left: 10px;
 }
 
 .header .header-container .header-action .calc:hover {
@@ -3983,8 +3984,8 @@ body main {
 
   .lang-block .uk,
   .lang-block .en {
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     font-size: 12px;
   }
 
@@ -3998,11 +3999,11 @@ body main {
 
   .tell {
     width: 100px;
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .calc {
-    width: 90px;
+    width: 85px;
   }
 
   .footer-container {
